@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mia_modern_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/imageMidMargin">
+
+        <TextView
+            style="@style/LocationMainText"
+            android:text="@string/exhibitsTab" />
+
+        <TextView
+            style="@style/LocationStyleImage"
+            android:text="@string/exhibitsTab2"
+            android:textColor="@color/white" />
+
+        <LinearLayout style="@style/ExhibitLinearStyle">
+
+            <TextView
+                android:id="@+id/exhibitText1"
+                style="@style/ExhibitTextStyleOne"
+                android:textColor="@color/exhibOneColor" />
+
+            <ImageView
+                android:id="@+id/exhibitImage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/exhibitOneDate"
+            style="@style/ExhibitDateStyle"
+            android:paddingTop="@dimen/imageMidMargin"
+            android:textColor="@color/exhibOneColor" />
+
+        <LinearLayout style="@style/ExhibitLinearStyle">
+
+            <ImageView
+                android:id="@+id/exhibitImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/exhibitText2"
+                style="@style/ExhibitTextStyleOne"
+                android:textColor="@color/exhibTwoColor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/exhibitTwoDate"
+            style="@style/ExhibitDateStyle"
+            android:paddingTop="@dimen/imageMidMargin"
+            android:textColor="@color/exhibTwoColor" />
+
+        <LinearLayout style="@style/ExhibitLinearStyle">
+
+            <TextView
+                android:id="@+id/exhibitText3"
+                style="@style/ExhibitTextStyleOne"
+                android:textColor="@color/exhibThreeColor" />
+
+            <ImageView
+                android:id="@+id/exhibitImage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/exhibitThreeDate"
+            style="@style/ExhibitDateStyle"
+            android:paddingTop="@dimen/imageMidMargin"
+            android:textColor="@color/exhibThreeColor" />
+
+
+        <LinearLayout style="@style/ExhibitLinearStyle">
+
+            <ImageView
+                android:id="@+id/exhibitImage4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/exhibitText4"
+                style="@style/ExhibitTextStyleOne"
+                android:textColor="@color/exhibFourColor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/exhibitFourDate"
+            style="@style/ExhibitDateStyle"
+            android:textColor="@color/exhibFourColor" />
+    </LinearLayout>
+</ScrollView>

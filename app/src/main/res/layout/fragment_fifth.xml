@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_background_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MapMainStyle"
+            android:text="@string/map_title" />
+
+        <TextView
+            android:id="@+id/floor_one_text"
+            style="@style/MapTextStyle" />
+
+        <ImageView
+            android:id="@+id/floor_one_image"
+            style="@style/MapImageStyle" />
+
+        <TextView
+            android:id="@+id/floor_two_text"
+            style="@style/MapTextStyle" />
+
+        <ImageView
+            android:id="@+id/floor_two_image"
+            style="@style/MapImageStyle" />
+
+        <TextView
+            android:id="@+id/floor_three_text"
+            style="@style/MapTextStyle" />
+
+        <ImageView
+            android:id="@+id/floor_three_image"
+            style="@style/MapImageStyle"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>

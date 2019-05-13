@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="mainTitle">Minnesota\'s Best Kept Secrets</string>
+    <string name="artMain">Minneapolis Institute of Art</string>
+    <string name="miaAddress"> 2400 Third Avenue South
+    Minneapolis, MN 55404</string>
+    <string name="disclaimer">Images used are from MIA Website</string>
+    <string name="contactInfo">Contact Information</string>
+    <string name="location_info">Location Information</string>
+    <string name="driving_info">Driving Directions</string>
+    <string name="driving_info_1">Parking Locations</string>
+    <string name="map_title">Building Maps</string>
+    <string name="floor_one">Floor One</string>
+    <string name="floor_two">Floor Two</string>
+    <string name="floor_three">Floor Three</string>
+    <string name="cost">Cost</string>
+    <string name="exhibitOne">Egypt\'s Sunken Cities</string>
+    <string name="exhibitOneDate">OCTOBER 28 TO APRIL 14, 2019</string>
+    <string name="exhibitTwo">The Osiris Mysteries in Egypt’s Sunken Cities</string>
+    <string name="exhibitTwoDate">SUNDAY, OCTOBER 28 2:00 PM</string>
+    <string name="exhibitThree">Purcell Cutts House Tour</string>
+    <string name="exhibitThreeDate">OCTOBER 13 TO JANUARY 13, 2019</string>
+    <string name="exhibitFour">The Tale of Genji in Japanese Art Aaron Rio, Andreas Marks and Lynne Miyake</string>
+    <string name="exhibitFourDate">SATURDAY, DECEMBER 8 10:00 AM</string>
+    <string name="hours">Hours</string>
+    <string name="intro">Do you enjoy art? Do you enjoy history? If so then you will love one of Minnesota\'s most valuable
+        treasures!
+        The Minneapolis Institute of art houses over 89,000 objects that span 20,000 years of artistic history.</string>
+    <string name="exhibitsTab">Exhibits</string>
+    <string name="exhibitsTab2">Admission Free, except special exhibits</string>
+    <string name="miaContactWeb">https://new.artsmia.org/</string>
+    <string name="miaContactPhone">+1&#8211;888&#8211;642&#8211;2787 (Toll Free)</string>
+    <string name="miaContactEmail">visit@artsmia.org</string>
+    <string name="miaHours"> Monday: Closed
+        Tuesday: 10am-5pm
+        Wednesday: 10am-5pm
+        Thursday: 10am-9pm
+        Friday: 10am-9pm
+        Saturday: 10am-5pm
+        Sunday: 11am-5pm</string>
+</resources>

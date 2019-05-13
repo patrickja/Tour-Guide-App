@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TabStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="ContactLinearStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ContactImageStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_margin">@dimen/imageMidMargin</item>
+    </style>
+
+    <style name="ContactTextStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ContactMainText" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="MapMainStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/fadedBack</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/exhibThreeColor</item>
+        <item name="android:textSize">@dimen/map_text_2</item>
+        <item name="android:layout_marginTop">@dimen/map_margin_2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MapTextStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/fadedBack</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/map_text_1</item>
+        <item name="android:layout_marginTop">@dimen/map_margin_1</item>
+    </style>
+
+    <style name="MapImageStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/map_image_height</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="MainPageStyleCommon" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MainPageStyleOne" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/introText</item>
+        <item name="android:textSize">@dimen/titleText</item>
+        <item name="android:background">@color/mainBack</item>
+        <item name="android:layout_marginTop">@dimen/main_margin_2</item>
+        <item name="android:layout_marginLeft">@dimen/main_margin_1</item>
+        <item name="android:layout_marginRight">@dimen/main_margin_1</item>
+    </style>
+
+    <style name="LocationMainText" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/location_margin_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/location_text_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LocationStyleTextOne" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/location_width_1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/map_margin_1</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/titleText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LocationStyleTextTwo" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/map_margin_1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/address_color</item>
+        <item name="android:textSize">@dimen/titleText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LocationStyleImage" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ExhibitDateStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/fadedBack</item>
+        <item name="android:textSize">@dimen/exhibit_date_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExhibitTextStyleOne" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/fadedBack</item>
+        <item name="android:textSize">@dimen/exhibit_date_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ExhibitLinearStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/exhibit_padding_one</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

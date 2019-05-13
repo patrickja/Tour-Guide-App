@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleText">24sp</dimen>
+    <dimen name="buttonMargin">16dp</dimen>
+    <dimen name="buttonHeight">48dp</dimen>
+    <dimen name="buttonWidth">48dp</dimen>
+    <dimen name="dividerMargin">16dp</dimen>
+    <dimen name="imageSmallMargin">4dp</dimen>
+    <dimen name="imageMidMargin">8dp</dimen>
+    <dimen name="infoText">18sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="map_text_1">24sp</dimen>
+    <dimen name="map_margin_1">24dp</dimen>
+    <dimen name="map_text_2">28dp</dimen>
+    <dimen name="map_margin_2">48dp</dimen>
+    <dimen name="map_image_height">200dp</dimen>
+    <dimen name="main_margin_1">20dp</dimen>
+    <dimen name="main_margin_2">85dp</dimen>
+    <dimen name="location_width_1">200dp</dimen>
+    <dimen name="location_width_2">300dp</dimen>
+    <dimen name="location_margin_1">48dp</dimen>
+    <dimen name="location_text_1">28sp</dimen>
+    <dimen name="exhibit_date_text">16sp</dimen>
+    <dimen name="exhibit_padding_one">30dp</dimen>
+    <dimen name="main_text_mid">40sp</dimen>
+    <dimen name="location_text_mid">20sp</dimen>
+    <dimen name="location_text_small">18sp</dimen>
+</resources>

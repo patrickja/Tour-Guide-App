@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainBackground">#000051</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="appTitle">#066dfd</color>
+    <color name="groupOneBackground">#a40592</color>
+    <color name="swipeColor">#f90cbd</color>
+    <color name="introText">#f7f7f7</color>
+    <color name="mainBack">#8b030202</color>
+    <color name="exhibOneColor">#03ffe2</color>
+    <color name="fadedBack">#51000000</color>
+    <color name="exhibTwoColor">#f1e209</color>
+    <color name="exhibThreeColor">#f705ae</color>
+    <color name="exhibFourColor">#19f915</color>
+    <color name="contactColorOne">#ff002b</color>
+    <color name="contactColorTwo">#ff0aa9</color>
+    <color name="contactColorThree">#fffb00</color>
+    <color name="address_color">#03acf5</color>
+    <color name="location_title">#067be2</color>
+    <color name="location_background">#730052</color>
+    <color name="map_background">#006b7c</color>
+</resources>

@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_fourth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mia_creature">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LocationMainText"
+            android:text="@string/location_info" />
+
+        <TextView
+            android:id="@+id/location_text_one"
+            style="@style/LocationStyleTextTwo"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/location_text_two"
+            style="@style/LocationStyleTextTwo"
+            android:textAlignment="center"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/location_driving_text"
+            style="@style/LocationStyleTextOne" />
+
+        <ImageView
+            android:id="@+id/location_driving_image"
+            style="@style/LocationStyleImage" />
+
+        <TextView
+            android:id="@+id/location_parking_text"
+            style="@style/LocationStyleTextOne" />
+
+        <ImageView
+            android:id="@+id/location_parking_image"
+            style="@style/LocationStyleImage"
+            android:layout_marginBottom="@dimen/map_margin_1" />
+    </LinearLayout>
+</ScrollView>
