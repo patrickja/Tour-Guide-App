@@ -14,5 +14,6 @@
         app:tabMaxWidth="@dimen/main_margin_2"
         app:tabMinWidth="@dimen/main_margin_2"
         app:tabSelectedTextColor="@color/appTitle"
+        app:tabMode="scrollable"
         app:tabTextColor="@color/white" />
 </RelativeLayout>

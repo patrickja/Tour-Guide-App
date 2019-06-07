@@ -21,7 +21,7 @@ public class MapAdapter extends ArrayAdapter<MapArray> {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View listItemView = convertView;
-        if (listItemView == null) {
+        if (convertView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.fragment_fifth, parent, false);
         }
